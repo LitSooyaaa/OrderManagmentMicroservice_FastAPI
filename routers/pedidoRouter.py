@@ -8,7 +8,7 @@ from utils.dependencies import get_db
 # Proporciona las URL base de los otros servicios
 base_url_clientes = "http://127.0.0.1:8001"
 base_url_productos = "http://127.0.0.1:8002"
-base_url_repartidores = "http://127.0.0.1:8003"
+base_url_repartidores = "http://127.0.0.1:8000"
 
 pedido_router = APIRouter()
 
